@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>SLOT MACHINE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="data:image/png;base64,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" sizes="16×16" >
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#111;color:#fff;
+ font-family:system-ui,sans-serif;
+ display:flex;justify-content:center;align-items:center;min-height:100vh;
+}
+#game{
+ background:#222;padding:12px;border-radius:16px;
+ width:min(460px,96vw);
+}
+.fullscreen #game{
+ width:100vw;height:100vh;border-radius:0;
+ display:flex;flex-direction:column;justify-content:center;
+}
+h1,h3{text-align:center;margin:6px 0}
+#reels{display:flex;gap:8px;margin:10px 0}
+.reel{
+ flex:1;height:90px;background:#000;border-radius:12px;
+ font-size:44px;display:flex;justify-content:center;align-items:center;
+ box-shadow:inset 0 0 12px #666;
+ transition:.15s;
+}
+.fullscreen .reel{height:120px;font-size:56px}
+
+.flash{filter:brightness(2)}
+.jackpotFx{animation:jack 0.4s infinite}
+@keyframes jack{
+ 0%{filter:hue-rotate(0deg)}
+ 100%{filter:hue-rotate(360deg)}
+}
+.shake{animation:shake .3s}
+@keyframes shake{
+ 0%{transform:translate(0)}
+ 25%{transform:translate(5px)}
+ 50%{transform:translate(-5px)}
+ 75%{transform:translate(5px)}
+}
+
+.controls{display:flex;gap:6px;margin-bottom:6px;flex-wrap:wrap}
+button,select{
+ flex:1;padding:10px;font-size:16px;border:none;border-radius:10px
+}
+button{background:#ffcc00}
+.stop{background:#ff6666}
+.auto{background:#66ccff}
+
+#info{text-align:center;font-size:14px}
+.win{color:#00ff88;font-weight:bold}
+.jackpot{color:#ff66ff;font-weight:bold}
+
+#history,#stats{
+ background:#111;border-radius:10px;padding:6px;
+ font-size:12px;margin-bottom:6px;max-height:120px;overflow:auto
+}
+.plus{color:#00ff88}
+.minus{color:#ff6666}
+</style>
+</head>
+<body>
+
+<div id="game">
+<h1>🎰 SLOT MACHINE</h1>
+
+<div id="reels">
+ <div class="reel" id="r1">❓</div>
+ <div class="reel" id="r2">❓</div>
+ <div class="reel" id="r3">❓</div>
+</div>
+
+<div class="controls">
+ <button onclick="start()">START</button>
+ <button class="stop" onclick="stopReel(0)">STOP</button>
+ <button class="stop" onclick="stopReel(1)">STOP</button>
+ <button class="stop" onclick="stopReel(2)">STOP</button>
+</div>
+
+<div class="controls">
+ <select id="bet">
+  <option value="10">BET 10</option>
+  <option value="20">BET 20</option>
+  <option value="50">BET 50</option>
+ </select>
+ <button onclick="toggleSound()">🔊 SOUND</button>
+ <button onclick="toggleFull()">🖥 FULL</button>
+ <button class="auto" onclick="toggleAuto()">▶ AUTO</button>
+</div>
+
+<div class="controls">
+ <button onclick="save()">💾 SAVE</button>
+ <button onclick="clearAll()">🗑 RESET</button>
+</div>
+
+<div id="info">
+ メダル: <span id="medal"></span><br>
+ <span id="msg"></span><br>
+ <small>
+ Space/Enter:START | 1-3:STOP | B:BET | S:SOUND | F:FULL | A:AUTO
+ </small>
+</div>
+
+<h3>📊 統計</h3>
+<div id="stats"></div>
+
+<h3>📜 履歴</h3>
+<div id="history"></div>
+</div>
+
+<script>
+/* ===== 設定 ===== */
+const table=[
+ {s:"💎",w:25},{s:"💎",w:25},{s:"💎",w:18},
+ {s:"⭐️",w:15},{s:"🎞️",w:10},{s:"7️⃣",w:5},{s:"💎",w:2}
+];
+
+let medal=100,sound=true;
+let spinning=[false,false,false],timers=[];
+let history=[];
+let auto=false,autoTimer=null;
+let stats={play:0,win:0,diff:0,max:0,streak:0,maxStreak:0};
+let stopIndex=0;
+
+const reels=[r1,r2,r3];
+
+/* ===== SE ===== */
+function se(f=600,t=80){
+ if(!sound)return;
+ const a=new AudioContext(),o=a.createOscillator();
+ o.frequency.value=f;o.connect(a.destination);o.start();
+ setTimeout(()=>{o.stop();a.close()},t);
+}
+
+/* ===== ゲーム ===== */
+function start(){
+ if(spinning.some(v=>v))return;
+ const bet=+betEl.value;
+ if(medal<bet){msg("メダル不足");toggleAuto(false);return;}
+ medal-=bet; stopIndex=0;
+ reels.forEach((r,i)=>{
+  spinning[i]=true;
+  timers[i]=setInterval(()=>r.textContent=lot(),60+i*20);
+ });
+ update();se(400,120);
+}
+
+function stopReel(i){
+ if(!spinning[i]||i!==stopIndex)return;
+ clearInterval(timers[i]);
+ spinning[i]=false;
+ reels[i].classList.add("shake");
+ se(800); stopIndex++;
+ setTimeout(()=>reels[i].classList.remove("shake"),150);
+ if(spinning.every(v=>!v))judge();
+}
+
+function judge(){
+ stats.play++;
+ const [a,b,c]=reels.map(r=>r.textContent);
+ const bet=+betEl.value;
+ let gain=0,text="ハズレ",cls="";
+
+ reels.forEach(r=>r.classList.remove("flash","jackpotFx"));
+
+ if(a===b&&b===c){
+  let m=a==="💎"?100:a==="7️⃣"?30:a==="🎞️"?15:5;
+  gain=bet*m; medal+=gain;
+  text="🎉 BIG WIN x"+m;
+  cls=a==="💎"?"jackpot":"win";
+  stats.win++; stats.streak++;
+  if(a==="💎")reels.forEach(r=>r.classList.add("jackpotFx"));
+  else reels.forEach(r=>r.classList.add("flash"));
+ }else if(a===b||b===c||a===c){
+  gain=bet*2; medal+=gain;
+  text="✨ WIN x2"; cls="win";
+  stats.win++; stats.streak++;
+ }else stats.streak=0;
+
+ stats.maxStreak=Math.max(stats.maxStreak,stats.streak);
+ stats.max=Math.max(stats.max,gain);
+ stats.diff+=gain-bet;
+
+ history.unshift({
+  t:new Date().toLocaleTimeString(),
+  line:`${a}${b}${c} → ${text}`,
+  diff:gain-bet
+ });
+ history=history.slice(0,30);
+
+ renderHistory();renderStats();
+ msg(text,cls);update();
+}
+
+/* ===== AUTO ===== */
+function toggleAuto(force){
+ auto=force!==undefined?force:!auto;
+ clearInterval(autoTimer);
+ msg(auto?"▶ AUTO ON":"■ AUTO OFF");
+ if(!auto)return;
+ autoTimer=setInterval(()=>{
+  if(spinning.some(v=>v))return;
+  start();
+  setTimeout(()=>stopReel(0),600);
+  setTimeout(()=>stopReel(1),900);
+  setTimeout(()=>stopReel(2),1200);
+ },1600);
+}
+
+/* ===== FULL ===== */
+function toggleFull(){
+ if(!document.fullscreenElement){
+  document.documentElement.requestFullscreen();
+  document.body.classList.add("fullscreen");
+ }else{
+  document.exitFullscreen();
+  document.body.classList.remove("fullscreen");
+ }
+}
+
+/* ===== 表示 ===== */
+function lot(){
+ let r=Math.random()*100,sum=0;
+ for(let t of table){sum+=t.w;if(r<sum)return t.s}
+}
+function renderHistory(){
+ historyEl.innerHTML=history.map(h=>{
+  const c=h.diff>=0?"plus":"minus";
+  return `<div>[${h.t}] ${h.line} <span class="${c}">(${h.diff})</span></div>`;
+ }).join("");
+}
+function renderStats(){
+ statsEl.innerHTML=
+  `総回転: ${stats.play}<br>
+   勝利: ${stats.win}<br>
+   勝率: ${stats.play?Math.round(stats.win/stats.play*100):0}%<br>
+   最大獲得: ${stats.max}<br>
+   最大連勝: ${stats.maxStreak}<br>
+   総差枚: ${stats.diff}`;
+}
+function update(){medalEl.textContent=medal}
+function msg(t,c=""){msgEl.textContent=t;msgEl.className=c}
+
+/* ===== SAVE ===== */
+function save(){
+ localStorage.setItem("slot",JSON.stringify({medal,history,stats,auto,sound}));
+ msg("セーブ完了");
+}
+function load(){
+ const d=localStorage.getItem("slot");
+ if(d){
+  const o=JSON.parse(d);
+  medal=o.medal||100;
+  history=o.history||[];
+  stats=o.stats||stats;
+  auto=o.auto||false;
+  sound=o.sound!==false;
+ }
+ renderHistory();renderStats();update();
+ if(auto)toggleAuto(true);
+}
+function clearAll(){
+ localStorage.removeItem("slot");
+ medal=100;history=[];
+ stats={play:0,win:0,diff:0,max:0,streak:0,maxStreak:0};
+ toggleAuto(false);
+ renderHistory();renderStats();update();
+ msg("完全リセット");
+}
+function toggleSound(){sound=!sound;msg(sound?"🔊ON":"🔇OFF")}
+
+/* ===== キーボード ===== */
+document.addEventListener("keydown",e=>{
+ if(e.repeat)return;
+ switch(e.key.toLowerCase()){
+  case " ":
+  case "enter": e.preventDefault(); start(); break;
+  case "1": stopReel(0); break;
+  case "2": stopReel(1); break;
+  case "3": stopReel(2); break;
+  case "b":
+   betEl.selectedIndex=(betEl.selectedIndex+1)%betEl.length;
+   msg("BET変更: "+betEl.value);
+   break;
+  case "s": toggleSound(); break;
+  case "f": toggleFull(); break;
+  case "a": toggleAuto(); break;
+ }
+});
+
+/* ===== DOM ===== */
+const betEl=document.getElementById("bet");
+const medalEl=document.getElementById("medal");
+const msgEl=document.getElementById("msg");
+const historyEl=document.getElementById("history");
+const statsEl=document.getElementById("stats");
+
+load();
+</script>
+</body>
+</html>
